@@ -1,0 +1,160 @@
+
+.Group  {
+    display: flex;
+    flex-direction:row;
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 15px;
+    font-family: Roboto;
+    color: #505F98;
+    font-weight: 400;                                                
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.nav-link {
+    color:#505F98;
+    text-decoration: none;
+    margin-left: 120px;
+}
+.logo {
+    position: absolute;
+    width: 79px;
+    height: 38px;
+    left: 51%;
+    top: 5px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 999;
+    line-height: 38px;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 1;
+}
+.background {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    margin-left:3%;
+    overflow: hidden;
+}
+.Heading1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.button {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    background-color: #111B47;
+    color: white;
+    padding: 1px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    width: 120px;
+    border-radius: 2px;
+    margin-left: 0px; 
+    z-index: 1; 
+}
+#h1 {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.Elements {
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    width: 600vw;
+    height: 8vh;
+    display: flex;
+}
+.btn1 {
+    background-color: #111B47;
+    color: white;
+    padding: 1px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    width: 160px;
+    border-radius: 2px;
+    margin-left: 0px;  
+}
+.btn2 {
+    border: #111B47 2px solid;
+    color: #111B47;
+    padding: 1px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    width: 160px;
+    border-radius: 2px;
+    margin-left: 100px;
+}
+.image2 {
+    position:absolute;
+    top: 170%;
+    left: 55%; 
+    padding-bottom: 100px;
+}
+#image3 {
+    margin: 0px;
+    padding: 0px;
+}
+.Heading2 {
+    position: absolute;
+    top: 175%;
+    left: 10%;
+}
+.sub-elements {
+    position: absolute;
+    top:215%;
+    left: 10%;
+    display: flex;
+    max-width: 150%;
+    width: 700px;
+}
+.element1 {
+    position: absolute;
+    top:40%;
+    left: 0%;
+}
+.element2 {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    
+}
+#Image3b {
+    margin-left:13%;
+}
+#para1 {
+    width:300px;
+    margin-right: 10px;
+}
+#para2 {
+    width:300px;
+    margin-right: 5px;
+}
+#text2 {
+    height: 164px;
+    left: 0px;
+    right: 0.37px;
+    top: 152px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #505F98;
+}
+@media screen and (max-width: 760px) {
+        .sub-elements {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20%;
+        }
+        .hell {
+            display:none;
+        }
+}
